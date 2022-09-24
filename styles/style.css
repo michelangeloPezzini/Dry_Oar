@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eae0d5;
+  color: #396e94;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1600px;
+}
+
+/*CSS IMAGES*/
+.logo {
+  width: 80px;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.card-img {
+  width: 400px;
+}
+
+.icon {
+  width: 80px;
+}
+
+.mountains {
+  width: 80%;
+}
+
+.midia-icon {
+  width: 30px;
+}
+
+/*End*/
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #22333b;
+}
+
+header nav {
+  padding-left: 10px;
+}
+
+header a,
+span {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #eae0d5;
+}
+
+header a:hover {
+  background-color: #396e94;
+  color: #eae0d5;
+}
+
+#hero-msg {
+  text-align: center;
+}
+
+.button-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.book {
+  background-color: #22333b;
+  color: #eae0d5;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.book:hover {
+  background-color: #22333b;
+  padding: 12px 22px;
+}
+
+.home-grid {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color: #c6ac8f;
+}
+
+.msg {
+  background-color: #396e94;
+  padding: 20px;
+  color: #eae0d5;
+}
+
+.link_join {
+  margin-top: 15px;
+}
+
+.msg a {
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #22333b;
+  padding: 5px 8px;
+  color: #eae0d5;
+}
+
+.msg a:hover {
+  padding: 8px 11px;
+  color: #eae0d5;
+}
+
+footer {
+  padding: 10px;
+  color: #eae0d5;
+  text-align: center;
+  background-color: #22333b;
+}
+
+.social img {
+  padding: 10px;
+}
+
+footer a {
+  color: #eae0d5;
+}
+
+.midia-icon:hover {
+  width: 40px;
+}
