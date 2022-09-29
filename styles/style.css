@@ -1,17 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finger+Paint&family=Lato:wght@100;400&display=swap");
 
 body {
   background-color: #eae0d5;
   color: #396e94;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+main section img {
+  box-sizing: border-box;
+}
 .content {
   max-width: 1600px;
 }
@@ -27,10 +29,16 @@ a {
 
 .card-img {
   width: 400px;
+  border: 10px solid #22333b;
+}
+
+.logo_link {
+  padding-top: 5px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .mountains {
@@ -55,6 +63,10 @@ header nav {
   padding-left: 10px;
 }
 
+nav a {
+  padding: 35px;
+}
+
 header a,
 span {
   margin-left: 10px;
@@ -72,6 +84,11 @@ header a:hover {
   text-align: center;
 }
 
+.home-title {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
 .button-box {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -81,7 +98,10 @@ header a:hover {
   background-color: #22333b;
   color: #eae0d5;
   border-radius: 5px;
+  margin-top: 50px;
   padding: 10px 20px;
+  font-size: 2em;
+  padding: 15px 30px;
 }
 
 .book:hover {
@@ -93,6 +113,10 @@ header a:hover {
   text-align: center;
 }
 
+.home-grid h2 {
+  font-family: Lato, Helvetica, sans-serif;
+}
+
 #background {
   height: 725px;
   background-color: #c6ac8f;
@@ -100,8 +124,20 @@ header a:hover {
 
 .msg {
   background-color: #396e94;
-  padding: 20px;
   color: #eae0d5;
+  padding: 35px;
+  font-family: "Finger Paint", cursive, sans-serif;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 
 .link_join {
@@ -121,6 +157,13 @@ header a:hover {
   color: #eae0d5;
 }
 
+.join {
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
 footer {
   padding: 10px;
   color: #eae0d5;
@@ -129,10 +172,12 @@ footer {
 }
 
 .social img {
-  padding: 10px;
+  padding-top: 15px;
 }
 
 footer a {
+  padding: 25px 50px;
+  margin-top: 200px;
   color: #eae0d5;
 }
 
