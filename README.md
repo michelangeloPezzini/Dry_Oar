@@ -1,2 +1,2 @@
-# WDD-130
- This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands on with students actually participating in simple web designs and programming. It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.
+# Dry Oar
+Website created for the WDD 130 course
