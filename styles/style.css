@@ -20,7 +20,7 @@ main section img {
   box-sizing: border-box;
 }
 .content {
-  max-width: 1600px;
+  width: 100%;
 }
 
 /*CSS IMAGES*/
@@ -33,8 +33,7 @@ main section img {
 
 #hero-img {
   width: 100%;
-  opacity: .8;
-
+  opacity: 0.3;
 }
 
 .card-img,
@@ -119,8 +118,9 @@ header a:hover {
 }
 
 #hero-msg {
-  margin-top: 100px;
+  margin-top: 180px;
   grid-column: 2/3;
+  font-size: 30px;
   grid-row: 1/2;
   text-align: center;
 
@@ -138,7 +138,7 @@ header a:hover {
 }
 
 .button-box {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -305,4 +305,68 @@ footer a {
   footer {
     margin-top: 25px;
   }
+}
+
+/*Here start the rivers style*/
+.content-river {
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: #6f7364;
+}
+
+.banner span {
+  font-size: 70px;
+  background-color: #6f7364;
+}
+
+.choose-river {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-river {
+  background-color: #22333b;
+  height: 350px;
+  color: #d9c2a3;
+  text-align: center;
+}
+
+.banner-river img {
+  width: 400px;
+}
+
+.banner-river button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: #396e94;
+  color: #eae0d5;
+}
+
+.banner-river button:hover {
+  padding: 10px 18px;
+}
+
+.contact-us {
+  background-color: #22333b;
+  color: #d9c2a3;
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+
+.mesage {
+  text-align: left;
+}
+.email {
+  text-align: right;
 }
